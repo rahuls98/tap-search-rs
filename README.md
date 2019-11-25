@@ -3,7 +3,7 @@ TapSearch takes in multiple paragraphs and give the top occurrences of a given w
 Try it out here - https://tap-search-rs.herokuapp.com/
 
 ### Instructions
-- Paste in text with paragraphs separated by 2 lines in the input form.
+- Paste in text with paragraphs separated by **2 lines** in the input form.
 - Click on submit text
 - Click on 'Get Document Indexes' to get the individual documents along with the generated document ids
 - Click on 'Generate Inverted Index' to further perform the inverted indexing.
