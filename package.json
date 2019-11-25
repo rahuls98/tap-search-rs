@@ -1,0 +1,14 @@
+{
+  "name": "tapsearch",
+  "version": "1.0.0",
+  "description": "Inverted indexing of words in documents",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rahul Suresh",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
