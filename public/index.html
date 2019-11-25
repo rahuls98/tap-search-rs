@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <title>TapSearch</title>
+        <link rel="stylesheet" href="public/style.css"/>
+    </head>
+    <body>
+        <div class="left">
+            <h1>User Input</h1>
+            <div id="user-input-container">
+                <form id="user-input-form">
+                    <fieldset>
+                        <legend>Input Form</legend>
+                            <table>
+                                <tr><textarea id="input-box" name="input" placeholder="Enter text here"></textarea></tr>
+                                <tr><button class="UI" type="button" onclick="displayInput()">Submit Text</button></tr><br/>
+                                <tr><button class="UI" type="button" onclick="getDocuments()">Get Document Indexes</button></tr>
+                                <tr><button class="UI" type="button" onclick="calculateIndex()">Generate Inverted Index</button></tr><br/>
+
+
+                                <tr><input class="UI" type="text" id="input_doc_id" placeholder="Enter document id"></tr>
+                                <tr><button class="UI" type="button" onclick="indexDocument()">Index paragraph</button></tr><br/>
+
+                                <tr><input class="UI" type="text" id="input_search_word" placeholder="Enter word"></tr>
+                                <tr><button class="UI" type="button" onclick="invertedIndexing()">Get top 10 paragraphs containing word occurence</button></tr><br/>
+
+                                <tr><button class="UI" type="submit">Clear</button></tr>
+                            </table>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+        <div class="right">
+            <h1>Response</h1>
+            <div id="response-box-container">
+                <textarea id="response-box" name="output"></textarea> 
+            </div>
+        </div>
+    </body>
+    <script src="public/docScript.js"></script>
+</html>

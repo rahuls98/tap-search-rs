@@ -1,0 +1,64 @@
+* {
+    font-size: 15px;
+}
+
+body {
+    background: black;
+    color: white;
+}
+
+.left {
+    width: 39%;
+    float: left;
+    padding-right: 10px;
+    text-align: center;
+}
+
+.right {
+    width: 60%;
+    float: left;
+    text-align: center;
+}
+
+h1 {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.UI {
+    display: block;
+    width: 100%;
+    padding: 10px;
+}
+
+button {
+    background-color: white;
+    color: black;
+}
+
+button:hover {
+    background-color:rgb(238, 9, 58);
+    color: white;
+}
+
+#input-box {
+    display: block;
+    width: 100%;
+    height: 200px;
+    overflow: scroll;
+    resize: none;
+    border-radius: none;
+}
+
+#response-box {
+    display: block;
+    width: 100%;
+    height: 660px;
+    resize: none;
+    border-radius: none;
+    padding: 15px;
+}
+
+#response-box-container {
+    padding-left: 20px;
+}
