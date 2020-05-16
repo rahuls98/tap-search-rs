@@ -17,21 +17,25 @@ Try it out here: https://tap-search-rs.herokuapp.com/
 <hr>
 
 ### Sample input and output
-`
-##### Input: 
-We now look at data transformation for nominal data. In particular, we study concept hierarchy generation for nominal attributes. Nominal attributes have a finite (but possibly large) number of distinct values, with no ordering among the values. Examples include geographic location, job category, and item type.<br><br><br>Manual definition of concept hierarchies can be a tedious and time-consuming task for a user or a domain expert. Fortunately, many hierarchies are implicit within the database schema and can be automatically defined at the schema definition level. The concept hierarchies can be used to transform the data into multiple levels of granularity. For example, data mining patterns regarding sales may be found relating to specific regions or countries, in addition to individual branch locations.<br><br><br>We study four methods for the generation of concept hierarchies for nominal data as follows.<br><br><br>This is a sample of a repeating repeating a text.
-`
 
+##### Input: 
+```
+We now look at data transformation for nominal data. In particular, we study concept hierarchy generation for nominal attributes. Nominal attributes have a finite (but possibly large) number of distinct values, with no ordering among the values. Examples include geographic location, job category, and item type.<br><br><br>Manual definition of concept hierarchies can be a tedious and time-consuming task for a user or a domain expert. Fortunately, many hierarchies are implicit within the database schema and can be automatically defined at the schema definition level. The concept hierarchies can be used to transform the data into multiple levels of granularity. For example, data mining patterns regarding sales may be found relating to specific regions or countries, in addition to individual branch locations.<br><br><br>We study four methods for the generation of concept hierarchies for nominal data as follows.<br><br><br>This is a sample of a repeating repeating a text.
+```
+```
 - Document to be indexed : docid_1
 - Word to be searched: nominal
-
+```
 <hr>
 
 ##### Output:
+```
 - docid_1: We now look at data transformation for nominal data. In particular, we study concept hierarchy generation for nominal attributes. Nominal attributes have a finite (but possibly large) number of distinct values, with no ordering among the values. Examples include geographic location, job category, and item type.
-
+```
+```
 - Occurrences of "nominal"
 
 3 times in docid_1: We now look at data transformation for nominal data. In particular, we study concept hierarchy generation for nominal attributes. Nominal attributes have a finite (but possibly large) number of distinct values, with no ordering among the values. Examples include geographic location, job category, and item type.
 
 1 times in docid_3: We study four methods for the generation of concept hierarchies for nominal data as follows.
+```
